@@ -1,8 +1,8 @@
 CC=gcc
 CFLAGS=-I.
-FILE=blackjack
+FILE=cacapalavras
 
-all: blackjack.o
-	$(CC) -o blackjack blackjack.o
+all: cacapalavras.o
+	$(CC) -o cacapalavras cacapalavras.o
 clean:
-	rm -rf blackjack blackjack.o
+	rm -rf cacapalavras cacapalavras.o
